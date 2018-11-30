@@ -1,5 +1,4 @@
 html, body {
-  height: 100%;
   margin: 0 auto;
   font-family: arial, sans-serif;
 }
@@ -25,6 +24,7 @@ input[type="submit"] {
   font-weight: bold;
   border: none;
   padding: 10px;
+  border: 1px solid #F2F2F2;
 }
 
 input[type="submit"]:hover {
@@ -45,7 +45,7 @@ textarea:focus, input:focus {
 }
 
 .logo img {
-  margin-top: 10%;
+  margin-top: 12%;
   margin-left: auto;
   margin-right: auto;
   display: block;
