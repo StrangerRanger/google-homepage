@@ -1,3 +1,13 @@
+a {
+  color: #000;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 html, body {
   margin: 0 auto;
   font-family: arial, sans-serif;
@@ -22,7 +32,6 @@ input[type="submit"] {
   background-color: #F2F2F2;
   color: #6a6a6a;
   font-weight: bold;
-  border: none;
   padding: 10px;
   border: 1px solid #F2F2F2;
 }
@@ -51,6 +60,32 @@ textarea:focus, input:focus {
   display: block;
 }
 
+.nav-left {
+  display: inline-block;
+  height: 35px;
+  font-size: 13px;
+  line-height: 45px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.nav-left a {
+  padding: 8px;
+}
+
+.nav-right {
+  display: inline-block;
+  height: 35px;
+  font-size: 13px;
+  line-height: 45px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.nav-right a {
+  padding: 8px;
+}
+
 .searchbar {
   margin-top: 20px;
   margin-left: auto;
@@ -66,6 +101,7 @@ textarea:focus, input:focus {
 .searchbar img {
   float: right;
   display: inline-block;
+  align-self: center;
 }
 
 .searchbuttons {
@@ -76,30 +112,28 @@ textarea:focus, input:focus {
   width: 400px;
   text-align: center;
 }
-/**
-.navleft {
-  display: inline;
-  float: left;
-  height: 5%;
-  font-size: 13px;
-  margin-left: 15px;
-  padding: 10px;
+
+#apps {
+  opacity: 0.7;
 }
 
-.navleft a {
-  padding: 10px;
+#apps:hover {
+  opacity: 1;
 }
 
-.navright {
-  display: inline;
-  float: right;
-  height: 5%;
-  font-size: 13px;
-  margin-right: 15px;
-  padding: 10px;
+#notifications {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #3b3b3b;
+  padding: 3px;
 }
 
-.navright a {
-  padding: 10px;
+#notifications:hover {
+  background-color: #000;
 }
-**/
+#user-photo {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
